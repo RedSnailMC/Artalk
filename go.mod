@@ -2,6 +2,8 @@ module github.com/artalkjs/artalk/v2
 
 go 1.22.7
 
+replace github.com/markbates/goth => github.com/RedSnailMC/goth v1.80.0-casdoor
+
 require (
 	github.com/adrg/xdg v0.5.0
 	github.com/allegro/bigcache/v3 v3.1.0
